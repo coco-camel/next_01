@@ -25,5 +25,4 @@ export default function Navigation() {
   );
 }
 
-// Hydration
-// 단순한 HTML<button /> 사용자에게 보여 줌 => 이후 onClick react 초기화 (javascript 실행)
+// use client 도 server에서 먼저 render 된 후 hydrate 된다.
