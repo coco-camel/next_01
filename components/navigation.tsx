@@ -24,5 +24,3 @@ export default function Navigation() {
     </nav>
   );
 }
-
-// use client 도 server에서 먼저 render 된 후 hydrate 된다.
